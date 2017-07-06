@@ -89,3 +89,82 @@ nav .dropdown-content {
 #profile {
 	margin-top: 5%;
 }
+
+/*clases Mireya*/
+
+.box__star {
+    background-color: #F7F7F7;
+    padding: 40px 40px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.img__logo{
+  margin: 20px 20px 0;
+}
+
+.box__modal{
+  width: 25%;
+  padding: 15px;
+}
+
+.img__profile {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.title__session {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    min-height: 1em;
+}
+
+ .button {
+    width: 80%;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #25cad3;
+}
+
+
+
+small{
+  margin: 10px 0 10px 0;
+}
+
+
+
+.enlace__contraseñaOlvidada {
+    color: rgb(104, 145, 162);
+}
+
+.enlace__contrase:hover{
+    color: rgb(12, 97, 33);
+}
+
+.high__chip{
+      min-height: 3rem;
+      padding: 5px;
+}
+/*clahechas por daffytases */
+.white-text {
+    color: #fff ;
+}
+.color__dark-gray{
+  background-color: #333333;
+}
+.color__orange{
+  color: orange;
+}
+.color__green{
+  background-color: #94d500;
+}

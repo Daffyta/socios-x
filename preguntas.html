@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title -->
+    <title>Socios-x</title>
+    <!-- Links -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+  	  <div class="navbar-fixed">
+        	<nav>
+  			<div id="sign-out">
+    			  <span><i class="fa fa-user-circle" aria-hidden="true"></i><a href="#">Cerrar sesión</a></span>
+  		  	</div>
+          	<div class="nav-wrapper">
+            	<a href="#!" class="logo"><img src="assets/img/logoNaranja-menu.png" alt=""></a>
+            	<ul class="right hide-on-med-and-down">
+              	<li><a href="#">Mis reservaciones</a></li>
+              	<li><a href="#">Mis facturas</a></li>
+  				<!-- Dropdown Structure Trigger -->
+  				<li><a class='dropdown-button' href='#' data-activates='about-me'>Acerca de mí</a></li>
+  				<!-- Dropdown Structure Start -->
+    				<ul id='about-me' class='dropdown-content'>
+      				<li><a href="#!">Mis datos</a></li>
+      				<li><a href="#!">Mis experiencias</a></li>
+  					<li><a href="#!">Mi convenio</a></li>
+    				</ul>
+  				<!-- Dropdown Structure End -->
+  				<li><a href="#">Preguntas frecuentes</a></li>
+  				<li><a class="btn" href="#modal-contact">Contacto</a></li>
+            	</ul>
+          	</div>
+  	  		<!-- Modal Structure -->
+  	  		<div id="modal-contact" class="modal">
+  	    		<div class="modal-content">
+  	      		<h4>Para cualquier duda o consulta, contánctanos:</h4>
+  	      		<p>Negociación de convenio</p>
+  	    		</div>
+  	  		</div>
+  		</div>
+        </nav>
+    </header>
+
+    <!-- Area de preguntas frecuentes-->
+    <div class="container">
+      <div class="row">
+        <div class="offset-s3 col s8">
+          <h2>Preguntas Frecuentes</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-s2 col s8">
+          <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuáles son las ventajas de trabajar con Experimenta?</div>
+            <div class="collapsible-body"><span>Conócelas aquí (<a href="#">link</a> a la presentación)</span>
+            <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s5 col s6">
+                      <button type="button" class="button white-text" name="button">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cómo me promocionan?</div>
+            <div class="collapsible-body"><span>Te promocionamos en nuestras redes sociales, sitio de internet, corporativos, canales de venta,
+            revistas y programas de radio</span>
+            <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s5 col s6">
+                      <button type="button" class="button white-text" name="button">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+          </div>
+          </li>
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuánto tiempo es válido el convenio?</div>
+            <div class="collapsible-body"><span>El convenio tiene duración de 2 años y es autorenovable. Se puede modificar y
+              dar de baja encualquier momento notificando a Experimenta con un mes de aniticipación.</span>
+              <!-- Area de textarea para agregar comentario-->
+                <div class="row">
+                  <form class="offset-s2 col s8">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">¿Quieres comentar?</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="offset-s5 col s6">
+                        <button type="button" name="button">Agregar Comentario</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Hay un límite de experiencias que puedo promocionar con Experimenta?</div>
+            <div class="collapsible-body"><span>Estamos interesados en tener en nuestro catalogo todas las experiencias que quieres promocionar con nosotros.
+              No hay ningun minimo ni maximo en el numero de experiencias.</span>
+
+              <!-- Area de textarea para agregar comentario-->
+                <div class="row">
+                  <form class="offset-s2 col s8">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">¿Quieres comentar?</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="offset-s5 col s6">
+                        <button type="button" name="button" class="button white-text">Agregar Comentario</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange ">live_help</i>¿Cuántos cambios puedo hacer en mis experiencias y cuándo?</div>
+            <div class="collapsible-body"><span>Puedes hacer cuantos cambios quieras y cuando quieras. Puedes hacer modificaciones
+            directamente en la seccion "mis experiencias" y nuestro equipo esta siempre a tu disposicion para ayudarte con lo que se te ofrece.</span>
+
+            <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s5 col s6">
+                      <button type="button" name="button" class="button white-text">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header white-text color__dark-gray"><i class="material-icons color__orange">live_help</i>¿Cuánto tiempo tengo para cobrar una reservación?</div>
+            <div class="collapsible-body"><span>A partir de que la experiencia este vivida, tienes hasta 6 meses para mandarnos tu factura.
+            Despues de estos 6 meses, la experiencia será incobrable por politicas de nuestra empresa.</span>
+
+            <!-- Area de textarea para agregar comentario-->
+              <div class="row">
+                <form class="offset-s2 col s8">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">¿Quieres comentar?</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="offset-s5 col s6">
+                      <button type="button" name="button" class="button white-text">Agregar Comentario</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+          </div>
+        </ul>
+      </div>
+
+      </div>
+    </div>
+
+    <!-- area del chip para resolver dudas-->
+    <div class="container">
+      <div class="row">
+        <div class="offset-s5 col s7">
+          <div class="chip high__chip color__dark-gray">
+            <img src="assets/img/atencion.jpg" alt="Contact Person">
+            <strong class="white-text">No pudimos resolver tus dudas, contáctanos a </strong>
+            <a href="#">socios@experimenta.com.mx</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

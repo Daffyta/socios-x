@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Title -->
+  <title>Iniciar Sesion</title>
+  <!-- Links -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <!-- area de imagen del logo-->
+  <div>
+    <img src="assets/img/Logo-experimenta-80px.png" class="img__logo" alt="">
+  </div>z
+
+  <div class="container">
+      <div class="row">
+
+        <div class="offset-s4 col s5">
+          <div class="box__star">
+            <img id="profile-img" class="img__profile" src="assets/img/sesion.png" />
+            <p id="profile-name" class="title__session">Iniciar Session</p>
+            <form class="#" action="index.html" method="post">
+
+              <div class="row">
+                <div class="offset-s2 col s8">
+                  <input type="email" id="inputEmail"  placeholder="Email" required autofocus>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="offset-s2 col s8">
+                  <input type="password" id="inputPassword"  placeholder="Password" required autofocus>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="offset-s3 col s8">
+                  <button type="submit" class="b ">
+                  <span class="glyphicon glyphicon-log-in"></span> Ingresar
+                  </button>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="offset-s1 col s8">
+                  <small><a href="#modal1">¿Olvidaste tu contraseña?</a></small>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- area de Modal para session-->
+    <div id="modal1" class="modal box__modal">
+      <div class="container">
+        <div class="row">
+          <div class="offset-s2 col s4">
+            <img src="assets/img/candado.jpg" alt="" class="img__profile">
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-s2 col s8">
+            <input type="email" id="inputEmail"  placeholder="Email" required autofocus>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-s3 col s8">
+            <button type="submit" class="btn btn-info">
+             Enviar
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <small>*No lo recuerdas comunícate al:</small><br>
+          <small >5292 5707 Ext. 104 y 105.</small>
+        </div>
+
+      </div>
+
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
