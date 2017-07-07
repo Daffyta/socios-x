@@ -1,6 +1,7 @@
 #agreement-form >.container{
   border: 1px solid #e3e3e3;
   padding: 3%;
+  box-shadow: 0px 0px 20px #e3e3e3;
 }
 
 #copyright{

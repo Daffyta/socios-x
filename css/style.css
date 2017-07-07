@@ -199,43 +199,6 @@ small{
     color: rgb(12, 97, 33);
 }
 
-/*
-#form {
-  width: 250px;
-  margin: 0 auto;
-  height: 50px;
-}
-
-#form p {
-  text-align: center;
-}
-
-#form label {
-  font-size: 20px;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-label {
-  color: grey;
-}
-
-.clasificacion {
-  direction: rtl;/*cambia la dirección de escritura  de derecha a izquierda ( right to left ).*/
-/*  unicode-bidi: bidi-override;
-}
-
-label:hover,
-label:hover ~ label {
-  color: orange;
-}
-
-input[type="radio"]:checked ~ label {
-  color: orange;
-}
-*/
 .high__chip{
       min-height: 3rem;
       padding: 5px;
