@@ -104,7 +104,7 @@ h5 .fa{
 .modal-overlay, .modal {
 	height: auto;
 	color:#333333;
-	z-index: 100;
+	z-index: 100 !important;
 }
 .modal-content p {
 	margin:0;
