@@ -125,6 +125,10 @@ nav .dropdown-content {
   padding-bottom: 2%;
 }
 
+.espacio-header{
+  margin-bottom: 50px;
+}
+
 select {
   display: block;
 }
